@@ -1,5 +1,7 @@
 # @boennemann/eslint-config
 
+[![Build Status](https://travis-ci.com/boennemann/eslint-config.svg?branch=master)](https://travis-ci.com/boennemann/eslint-config)
+
 This is a base configuration for eslint. It contains all styling related
 settings, which should stay the same everywhere. They are controlled via [prettier](http://npm.im/prettier)
 and offer auto-fixing. Additional static analysis may be added on a per project
