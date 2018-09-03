@@ -1,6 +1,6 @@
 # @boennemann/eslint-config
 
-[![Build Status](https://travis-ci.com/boennemann/eslint-config.svg?branch=master)](https://travis-ci.com/boennemann/eslint-config)
+[![Build Status](https://travis-ci.com/boennemann/eslint-config.svg?branch=master)](https://travis-ci.com/boennemann/eslint-config) [![Greenkeeper badge](https://badges.greenkeeper.io/boennemann/eslint-config.svg)](https://greenkeeper.io/)
 
 This is a base configuration for eslint. It contains all styling related
 settings, which should stay the same everywhere. They are controlled via [prettier](http://npm.im/prettier)
