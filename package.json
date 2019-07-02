@@ -28,7 +28,7 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": ">= 5"
+    "eslint": ">= 6"
   },
   "publishConfig": {
     "access": "public"
