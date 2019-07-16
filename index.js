@@ -16,6 +16,34 @@ module.exports = {
       },
     ],
     'import/no-cycle': ['error', {maxDepth: 2}],
+    'import/order': [
+      'error',
+      {
+        groups: [
+          'builtin',
+          'external',
+          'internal',
+          ['parent', 'sibling', 'index'],
+        ],
+        'newlines-between': 'always',
+      },
+    ],
+    'import/no-unassigned-import': [
+      'error',
+      {
+        allow: ['**/*.css'],
+      },
+    ],
+    'import/newline-after-import': ['error'],
+    'import/no-useless-path-segments': [
+      'error',
+      {
+        noUselessIndex: true,
+      },
+    ],
+    'import/named': ['error'],
+    'import/no-named-as-default': ['error'],
+    'import/no-named-as-default-member': ['error'],
     'lodash/prefer-lodash-method': 'off',
     'lodash/prefer-constant': 'off',
     'lodash/prefer-lodash-chain': 'off',

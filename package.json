@@ -40,6 +40,7 @@
   },
   "scripts": {
     "semantic-release": "semantic-release",
-    "test": "eslint --ext=.json,.js ."
+    "test": "eslint --ext=.json,.js .",
+    "format": "eslint --ext=.json,.js --fix ."
   }
 }
