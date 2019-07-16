@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['ava', 'lodash', 'prettier'],
+  plugins: ['json', 'ava', 'lodash', 'prettier'],
   extends: ['standard', 'plugin:ava/recommended', 'prettier'],
   rules: {
     'prettier/prettier': [
