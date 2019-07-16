@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['json', 'ava', 'lodash', 'prettier'],
+  plugins: ['json', 'ava', 'lodash', 'prettier', 'import-order-alphabetical'],
   extends: ['standard', 'plugin:ava/recommended', 'prettier'],
   rules: {
     'prettier/prettier': [
@@ -16,7 +16,7 @@ module.exports = {
       },
     ],
     'import/no-cycle': ['error', {maxDepth: 2}],
-    'import/order': [
+    'import-order-alphabetical/order': [
       'error',
       {
         groups: [
