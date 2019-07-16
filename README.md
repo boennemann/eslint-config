@@ -13,4 +13,7 @@ npm install -D eslint @boennemann/eslint-config
 echo '{"extends": "@boennemann"}' > .eslintrc.json
 
 npx eslint .
+
+# if you want to lint json, too
+npx eslint --ext=.json,.js .
 ```
