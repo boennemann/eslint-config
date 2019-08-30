@@ -12,7 +12,7 @@
     "eslint-plugin-import-order-alphabetical": "0.0.2",
     "eslint-plugin-json": "^1.4.0",
     "eslint-plugin-lodash": "^6.0.0",
-    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-node": "^9.2.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-promise": "^4.0.0",
     "eslint-plugin-standard": "^4.0.1",
