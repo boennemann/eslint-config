@@ -41,7 +41,6 @@ module.exports = {
         noUselessIndex: true,
       },
     ],
-    'import/named': ['error'],
     'import/no-named-as-default': ['error'],
     'import/no-named-as-default-member': ['error'],
     'lodash/prefer-lodash-method': 'off',
