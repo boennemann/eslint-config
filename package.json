@@ -5,7 +5,7 @@
     "url": "https://github.com/boennemann/eslint-config/issues"
   },
   "dependencies": {
-    "eslint-config-prettier": "^6.3.0",
+    "eslint-config-prettier": "^6.4.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-ava": "^9.0.0",
     "eslint-plugin-import": "^2.18.2",
