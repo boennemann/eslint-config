@@ -10,7 +10,7 @@
     "eslint-plugin-ava": "^9.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-import-order-alphabetical": "^1.0.0",
-    "eslint-plugin-json": "^1.4.0",
+    "eslint-plugin-json": "^2.0.0",
     "eslint-plugin-lodash": "^6.0.0",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-prettier": "^3.1.1",
