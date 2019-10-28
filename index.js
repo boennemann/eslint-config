@@ -1,6 +1,12 @@
 module.exports = {
   plugins: ['json', 'ava', 'lodash', 'prettier', 'import-order-alphabetical'],
-  extends: ['standard', 'plugin:ava/recommended', 'prettier'],
+  extends: [
+    'standard',
+    'plugin:ava/recommended',
+    'prettier',
+    'prettier/react',
+    'prettier/standard',
+  ],
   rules: {
     'prettier/prettier': [
       'error',
@@ -11,7 +17,7 @@ module.exports = {
         semi: false,
         singleQuote: true,
         tabWidth: 2,
-        trailingComma: 'es5',
+        trailingComma: 'all',
         useTabs: false,
       },
     ],
@@ -48,7 +54,6 @@ module.exports = {
     'lodash/prefer-lodash-chain': 'off',
     'lodash/path-style': ['error', 'as-needed'],
     'promise/prefer-await-to-then': 'error',
-    'comma-dangle': ['error', 'always-multiline'],
     'no-process-env': 'error',
     'prefer-const': 'error',
   },
