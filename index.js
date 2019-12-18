@@ -59,5 +59,9 @@ module.exports = {
     'promise/prefer-await-to-then': 'error',
     'no-process-env': 'error',
     'prefer-const': 'error',
+    'no-unused-vars': [
+      'error',
+      {vars: 'all', args: 'after-used', ignoreRestSiblings: true},
+    ],
   },
 }
