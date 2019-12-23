@@ -19,7 +19,7 @@
     "prettier": "^1.19.1"
   },
   "devDependencies": {
-    "eslint": "^6.7.2",
+    "eslint": "^6.8.0",
     "semantic-release": "^15.13.31"
   },
   "homepage": "https://github.com/boennemann/eslint-config#readme",
