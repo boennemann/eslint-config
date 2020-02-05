@@ -1,12 +1,6 @@
 module.exports = {
-  plugins: ['json', 'ava', 'lodash', 'prettier', 'import-order-alphabetical'],
-  extends: [
-    'standard',
-    'plugin:ava/recommended',
-    'prettier',
-    'prettier/react',
-    'prettier/standard',
-  ],
+  plugins: ['json', 'lodash', 'prettier'],
+  extends: ['standard', 'prettier', 'prettier/react', 'prettier/standard'],
   rules: {
     'prettier/prettier': [
       'error',
@@ -22,7 +16,7 @@ module.exports = {
       },
     ],
     'import/no-cycle': ['error', {maxDepth: 2}],
-    'import-order-alphabetical/order': [
+    'import/order': [
       'error',
       {
         groups: [
@@ -32,6 +26,9 @@ module.exports = {
           ['parent', 'sibling', 'index'],
         ],
         'newlines-between': 'always',
+        alphabetize: {
+          order: 'asc',
+        },
       },
     ],
     'import/no-unassigned-import': [
