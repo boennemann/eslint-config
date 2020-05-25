@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "eslint": "^7.0.0",
-    "semantic-release": "^17.0.7"
+    "semantic-release": "^17.0.8"
   },
   "homepage": "https://github.com/boennemann/eslint-config#readme",
   "keywords": [
