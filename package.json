@@ -1,14 +1,31 @@
 {
   "name": "@boennemann/eslint-config",
   "version": "0.0.0-development",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "homepage": "https://github.com/boennemann/eslint-config#readme",
   "bugs": {
     "url": "https://github.com/boennemann/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boennemann/eslint-config.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "format": "npm run -s lint -- --fix",
+    "lint": "eslint --ext json,js .",
+    "semantic-release": "semantic-release",
+    "test": "npm run -s lint"
   },
   "dependencies": {
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.21.2",
-    "eslint-plugin-json": "^2.1.1",
+    "eslint-plugin-json-format": "^2.0.1",
     "eslint-plugin-lodash": "^7.1.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
@@ -20,26 +37,10 @@
     "eslint": "^7.2.0",
     "semantic-release": "^17.0.8"
   },
-  "homepage": "https://github.com/boennemann/eslint-config#readme",
-  "keywords": [
-    "eslint",
-    "eslintconfig"
-  ],
-  "license": "MIT",
-  "main": "index.js",
   "peerDependencies": {
     "eslint": ">= 7"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/boennemann/eslint-config.git"
-  },
-  "scripts": {
-    "semantic-release": "semantic-release",
-    "test": "eslint --ext=.json,.js .",
-    "format": "eslint --ext=.json,.js --fix ."
   }
 }

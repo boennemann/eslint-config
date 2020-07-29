@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['json', 'lodash', 'prettier'],
+  plugins: ['json-format', 'lodash', 'prettier'],
   extends: ['standard', 'prettier', 'prettier/react', 'prettier/standard'],
   rules: {
     'prettier/prettier': [
