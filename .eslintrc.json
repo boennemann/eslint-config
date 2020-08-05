@@ -1,3 +1,6 @@
 {
-  "extends": "./index.js"
+  "extends": "./typescript.js",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
 }

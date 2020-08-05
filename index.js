@@ -1,6 +1,12 @@
 module.exports = {
   plugins: ['json-format', 'lodash', 'prettier'],
-  extends: ['standard', 'prettier', 'prettier/react', 'prettier/standard'],
+  extends: [
+    'standard-with-typescript',
+    'prettier',
+    'prettier/react',
+    'prettier/standard',
+    'prettier/@typescript-eslint',
+  ],
   rules: {
     'prettier/prettier': [
       'error',
