@@ -22,7 +22,7 @@
     "test": "tsc && npm run -s lint"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/eslint-plugin": "^3.9.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-config-standard-with-typescript": "^18.0.2",
